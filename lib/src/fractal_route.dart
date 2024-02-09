@@ -114,6 +114,8 @@ class FractalRedirectRoute implements FractalRoute {
     required this.redirect,
   });
 
+  // TODO: add redirect builder that takes context and router so users can rewrite paths
+
   @override
   final String path;
 

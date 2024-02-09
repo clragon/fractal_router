@@ -32,7 +32,7 @@ here is how you navigate:
 ```dart
   // We are in /books
   FractalRouter.of(context).change('1');
-  // navigates to /books/1
+  // We go to /books/1
 ```
 
 and here is how you go back:
@@ -40,5 +40,5 @@ and here is how you go back:
 ```dart
   // We are in /books/1
   Navigator.of(context).pop();
-  // navigates to /books
+  // We go to /books
 ```
